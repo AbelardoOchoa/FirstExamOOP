@@ -1,0 +1,11 @@
+A continuación hago las respectivas a los diferentes recursos bibliográficos, tecnológicos y webs que usé para prepararme para este examen y desarrollarlo:
+
+- Python Object Oriented Programming 4th Edition 2021 - Lott Phillips
+- Programación Orientada a Objetos Segunda edición - Luis Joyanes Aguilar
+- Computadora Portatil Dell (préstamo en la universidad)
+- Azure VM 
+- Diapositivas de la clase - José David Posada Aguilar
+- https://py.checkio.org/
+- https://youtube.com/c/BitBoss
+- https://plantuml.com/es/class-diagram
+- https://www.contadordecaracteres.com/
