@@ -4,12 +4,10 @@ class Buscaminas():
 
 class Tablero():
     def __init__(self) -> None:
-        self.casilla = [0, 1, 0, 1, 0][1, 0, 1, 0, 1]
+        self.casilla = [[0, 1, 0, 1, 0],[1, 0, 1, 0, 1]]
     
 
 class Minas():
-    def __init__(self) -> None:
-        ...
     def perder(self) -> None:
         self.victoria = False
     def boom(self) -> None:
@@ -20,7 +18,9 @@ class Jugador():
     def __init__(self) -> None:
         self.victoria = True
     
-    def jugar(self, fila, columna):
+    def jugar(self) -> None:
+        fila = int(input("Digite un número de fila."))
+        columna = int(input("Digite un número de columna."))
         if self.casilla[fila][columna] == 1:
             self.perder()
         elif self.casilla[fila][columna] == 2:
