@@ -9,8 +9,14 @@ class Tablero():
 
 class Minas():
     def perder(self) -> None:
+        """
+        Termina el juego.
+        """
         self.victoria = False
     def boom(self) -> None:
+        """
+        Le informa al jugador que seleccionó una mina y estalló.
+        """
         print("Perdiste, has estallado.")
             
 
@@ -19,6 +25,9 @@ class Jugador():
         self.victoria = True
     
     def jugar(self) -> None:
+        """
+        Comienza una partida.
+        """
         fila = int(input("Digite un número de fila."))
         columna = int(input("Digite un número de columna."))
         if self.casilla[fila][columna] == 1:
