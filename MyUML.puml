@@ -1,4 +1,4 @@
-@startuml
+@startuml OOP
 !theme crt-green
 class Buscaminas{
 interfaz: Tablero
@@ -14,7 +14,7 @@ class Jugador{
 victoria: bool
 jugar()
 }
-Minas -* Tablero: have 5 >
-Buscaminas o-- Tablero
-Jugador - Buscaminas: only 1 player >
+Minas -|> Tablero: have 5 >
+Buscaminas <|-- Tablero
+Jugador <|- Buscaminas: only 1 player >
 @enduml
