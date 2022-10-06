@@ -1,5 +1,6 @@
 from desarrollo import Buscaminas, Tablero, Minas, Jugador
-Posada = Jugador()
+posada = Jugador()
+juego = Buscaminas()
 
-while(Posada.victoria):
-    Posada.jugar(fila, columna)
+while(posada.victoria):
+    posada.jugar(fila, columna)
